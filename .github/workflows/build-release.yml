@@ -19,7 +19,7 @@ jobs:
       matrix:
         include:
           - arch: arm_cortex-a15_neon-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/ipq806x/generic
+            sdk_url_path: https://downloads.openwrt.org/releases/23.05.2/targets/ipq806x/generic
             sdk_name: -sdk-ipq806x-generic_
 
     env:
