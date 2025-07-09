@@ -21,6 +21,9 @@ jobs:
           - arch: arm_cortex-a15_neon-vfpv4
             sdk_url_path: https://downloads.openwrt.org/releases/23.05.2/targets/ipq806x/generic
             sdk_name: -sdk-23.05.2-ipq806x-generic_
+          - arch: aarch64_cortex-a53
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.2/targets/mediatek/filogic
+            sdk_name: -sdk-24.10.2-mediatek-filogic_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
